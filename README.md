@@ -7,10 +7,20 @@ Tähän linkki
 ## Työmäärän jakautuminen
 Kaikki tekivät yhdessä koodia...
 
+## Sisällysluottelo:
+
+- [Tietoa sovelluksesta](#tietoa-sovelluksesta)
+- [Kuvankaappaukset](#Kuvankaappaukset)
+- [Teknologiat](#Teknologiat)
+- [Suunnittelu / Vuokaavio](#Suunnittelu)
+- [Tila](#Tila)
+- [Lähteet ja tekijät](#lähteet-ja-tekijät)
+- [Lisenssi](#lisenssi)
+
 ## Tietoa sovelluksesta
 Arvauspeli on sovellus, joka...
 
-## Kuvankaappaus
+## Kuvankaappaukset
 Tähän vähintään yks kuvankaappaus sovelluksesta.
 
 ## Teknologiat
