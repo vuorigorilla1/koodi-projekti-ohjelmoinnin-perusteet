@@ -37,5 +37,4 @@ Tekijät: Elias Nieminen, Jesse Mitronen & Jere Paussu
 Käytimme W3Schools nettisivua, että saimme "random modulen" toimimaan.
 
 ## Lisenssi
-Valitaan lisenssi
-Esimerkki: MIT-lisenssi
+MIT-lisenssi ©
