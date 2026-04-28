@@ -27,7 +27,13 @@ Tähän vähintään yks kuvankaappaus sovelluksesta.
 Projektissa käytettiin pythonia
 
 ## Suunnittelu
-Kuvaile, miten lähestyit ongelmaa tai sovelluksen suunnittelua. Lisää tähän vuokaavio sovelluksen toiminnasta.
+Meidän ryhmä lähestyi tehtävää ensin keskustelemalla siitä, millainen sovellus olisi sopivan haastava mutta silti toteutettavissa. Halusimme tehdä jotain missä on selkeä logiikka ja käyttäisi silmukoita. Päädyimme arvauspeliin, koska se sisältää paljon kurssilla oppimaamme, eikä ole liian monimutkainen. 
+
+Suunnitellimme ensin sovelluksen toiminnan vaihe vaiheelta: ohjelma arpoo luvun, käyttäjä arvaa, ja ohjelma antaa palautteen siitä, onko arvaus liian suuri tai pieni.
+
+Tämän jälkeen teimme vuokaavion, jotta sovelluksen toiminta olisi helpompi hahmottaa, minkä jälkeen aloitimme yhdessä koodin toteutuksen.
+
+![Vuokaavio](Arvauspeli.png)
 
 ## Tila
 Arvauspeli on vielä työn alla. 'Versio 2' julkaistaan pian.
