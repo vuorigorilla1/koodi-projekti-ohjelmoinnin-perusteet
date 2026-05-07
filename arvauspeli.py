@@ -2,12 +2,15 @@ import random  #tarvitaan antamaan luku arvausta varten 1-100
 import json    #tarvitaan tulosten tallentamiseen tulostaulukkoon
 import os      #tarvitaan tarkastamaan jsonin olemassaolo
 
+#ensin tarvittavat funktiot tulostaulukkoa varten
+
 #tämä funktio lataa tulokset tiedostosta
 def lataa_tulokset():
     if os.path.exists("pisteet.json"):  #jos tiedosto on olemassa palautetaan tulokset listana
         with open("pisteet.json", "r") as f:
             return json.load(f) 
     return []  #jos tiedostoa ei ole, palautetaan tyhjä lista
+
 #tämä funktio tallentaa uuden tuloksen tiedostoon
 def tallenna_tulos(arvaukset):
     nimi = input("Syötä nimesi tuloslistalle: ") or "Anonyymi"  #kysytään pelaajan nimi
@@ -17,6 +20,7 @@ def tallenna_tulos(arvaukset):
     tulokset = tulokset[:10]  #tulostaulukossa on vain top 10 pelaajat
     with open("pisteet.json", "w") as f:
         json.dump(tulokset, f)  #tallennetaan tiedostoon
+        
 #tämä funktio näyttää tulostaulukon
 def tulostaulukko():
     tulokset = lataa_tulokset()
@@ -28,8 +32,7 @@ def tulostaulukko():
             print(f"  {i}. {tulos['nimi']} - {tulos['arvaukset']} arvausta")
     print("-------------------------\n")
 
-#peli
-
+#tästä alkaa itse pelin koodi
 while True:  #pyörittää peliä, kunnes pelaaja lopettaa
     tulostaulukko()  #näyttää tulokset
     vastaus = random.randint(1, 100)  #arvotaan satunnainen luku 1-100
@@ -83,8 +86,21 @@ while True:  #pyörittää peliä, kunnes pelaaja lopettaa
         print(f"Hävisit! Oikea vastaus oli {vastaus}.")
         print("------------------------------")
     #kysytään haluaako pelata uudelleen
-    uudelleen = input("Haluatko pelata uudelleen? (kyllä / ei): ")
+    while True:
+        print()
+        uudelleen = input("Haluatko pelata uudelleen? (kyllä / ei): ")
+        print()
+        if uudelleen == "kyllä":
+            break
+        elif uudelleen == "ei":
+            print()
+            print("Lopetetaan...")
+            print()
+            tulostaulukko()  #näytetään lopuksi tulostaulukko
+            break  #lopetetaan ohjelma
+        else:
+            print()
+            print("Vastaa 'kyllä' tai 'ei'.")
+            print()
     if uudelleen == "ei":
-        print("Lopetetaan...")
-        tulostaulukko()  #näytetään lopuksi tulostaulukko
-        break  #lopetetaan ohjelma
+        break
