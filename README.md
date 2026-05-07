@@ -25,7 +25,7 @@ Kun peli päättyy joko pelaajan voittoon tai häviöön, pelaajalle annetaan ma
 Lisäksi sovellus on ohjelmoitu tunnistamaan virheelliset syötteet: jos pelaaja antaa arvauksen yhteydessä muun syötteen kuin luvun väliltä 1-100, sovellus tunnistaa ja ilmoittaa siitä. Myös silloin, kun pelaajalta kysytään haluaaka hän pelata uudelleen, sovellus tunnistaa jos vastaus ei ole "kyllä" tai "ei".
 
 ## Kuvankaappaukset
-Tähän vähintään yks kuvankaappaus sovelluksesta.
+![Arvauspeli_kuvankaappaus1](Arvauspeli_kuvankaappaus1.png)
 
 ## Teknologiat
 Projektissa käytettiin pythonia.
@@ -43,7 +43,7 @@ Tämän jälkeen teimme vuokaavion, jotta sovelluksen toiminta olisi helpompi ha
 Arvauspeli on vielä työn alla. 'Versio 4' julkaistaan pian.
 
 ## Lähteet ja tekijät
-Tekijät: Elias Nieminen, Jesse Mitronen & Jere Paussu
+Tekijät: Elias Nieminen, Jesse Mitronen & Jere Paussu.
 Käytimme W3Schools nettisivua, että saimme "random modulen" toimimaan.
 
 ## Lisenssi
