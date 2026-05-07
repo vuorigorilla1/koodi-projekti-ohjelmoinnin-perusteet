@@ -2,7 +2,7 @@
 Ryhmän jäsenet: Elias Nieminen, Jesse Mitronen & Jere Paussu
 
 ## Pelin käynnistys:
-Tähän linkki
+Peli löytyy [Arvauspeli.py](#arvauspeli.py) tiedostosta. Pelin saa käyntiin ajamalla ohjelman.
 
 ## Työmäärän jakautuminen
 Ryhmämme suunnitteli, ideoi ja kehitti sovellusta yhdessä. Koska Elias oli ryhmämme osaavin koodari, hän toteutti suurimman osan vaativammasta koodauksesta. Eliaksen tehdessä suurimman osan koodauksesta yritimme jakaa muut projektin tehtävät tasaisemmin ryhmän jäsenten kesken työtaakan tasapainottamiseksi. Jere kirjoitti README.md tiedoston ja teki vuokaavion. Jesse puolestaan teki videotallenteen, jossa hän esitteli sovelluksen ja koodin toimintaa.
