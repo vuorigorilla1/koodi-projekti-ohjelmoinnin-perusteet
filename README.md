@@ -37,7 +37,7 @@ Suunnitellimme ensin sovelluksen toiminnan vaihe vaiheelta: ohjelma arpoo luvun,
 
 Tämän jälkeen teimme vuokaavion, jotta sovelluksen toiminta olisi helpompi hahmottaa, minkä jälkeen aloitimme yhdessä koodin toteutuksen. Vuokaaviota päivitettiin myös moneen kertaan sovelluksen kehittyessä.
 
-![Vuokaavio](Arvauspeli.png)
+![Vuokaavio](Arvauspeli4.png)
 
 ## Tila
 Arvauspeli on vielä työn alla. 'Versio 4' julkaistaan pian.
