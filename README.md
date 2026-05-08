@@ -44,8 +44,10 @@ Arvauspeli on vielä työn alla. 'Versio 4' julkaistaan pian.
 
 ## Lähteet ja tekijät
 Tekijät: Elias Nieminen, Jesse Mitronen & Jere Paussu.
-Käytimme W3Schools nettisivua, että saimme "random modulen" ja "JSON-tiedoston" toimimaan.
+
+Käytimme W3Schools nettisivua, että saimme "random modulen" ja "JSON-tiedoston" toimimaan. [W3Schools](https://www.w3schools.com/python/).
 
 ## Lisenssi
-MIT-lisenssi © 2026 vuorigorilla1 
+MIT-lisenssi © 2026 vuorigorilla1
+
 Katso tarkemmat tiedot [LICENSE](LICENSE)-tiedostosta.
