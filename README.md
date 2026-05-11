@@ -42,7 +42,7 @@ Tämän jälkeen teimme vuokaavion, jotta sovelluksen toiminta olisi helpompi ha
 ![Vuokaavio](Arvauspeli4.png)
 
 ## Tila
-Arvauspeli on vielä työn alla. 'Versio 4' julkaistaan pian.
+Arvauspeli on valmis!
 
 ## Lähteet ja tekijät
 Tekijät: Elias Nieminen, Jesse Mitronen & Jere Paussu.
